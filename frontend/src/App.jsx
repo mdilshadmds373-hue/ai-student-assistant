@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard.jsx";
 import Academic from "./pages/Academic.jsx";
 import Productivity from "./pages/Productivity.jsx";
 import Assistant from "./pages/Assistant.jsx";
+import Tools from "./pages/Tools.jsx";
 import ComingSoon from "./pages/ComingSoon.jsx";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/assistant" element={<Assistant />} />
           <Route path="/academic" element={<Academic />} />
+          <Route path="/tools" element={<Tools />} />
           <Route path="/productivity" element={<Productivity />} />
           <Route path="/documents" element={<ComingSoon title="Documents" phase={9} />} />
           <Route path="/studio" element={<ComingSoon title="AI Creation Studio" phase={10} />} />

@@ -1,7 +1,7 @@
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import {
   LayoutDashboard, Bot, BookOpen, CalendarCheck,
-  FolderOpen, Wand2, Compass, Settings, GraduationCap, LogOut,
+  FolderOpen, Wand2, Calculator, Compass, Settings, GraduationCap, LogOut,
 } from "lucide-react";
 import { useAuth } from "../context/AuthContext.jsx";
 
@@ -10,6 +10,7 @@ const links = [
   { to: "/assistant", label: "AI Assistant", icon: Bot },
   { to: "/academic", label: "Academic Center", icon: BookOpen },
   { to: "/productivity", label: "Productivity", icon: CalendarCheck },
+  { to: "/tools", label: "Tools", icon: Calculator },
   { to: "/documents", label: "Documents", icon: FolderOpen },
   { to: "/studio", label: "Creation Studio", icon: Wand2 },
   { to: "/explore", label: "Explore", icon: Compass },
